@@ -6,19 +6,17 @@
   "scripts": {
   "dev": "vite",
   "build": "vite build",
-  "lint": "eslint .",
-  "preview": "vite preview",
-"start": "vite preview --port 10000 --host 0.0.0.0"
-
+  "start": "serve dist"
 },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.6",
     "qrcode": "^1.5.4",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
+    "serve": "^14.2.4",
     "tailwindcss": "^4.1.6"
   },
-   "devDependencies": {
+  "devDependencies": {
     "@eslint/js": "^9.25.0",
     "@types/react": "^19.1.2",
     "@types/react-dom": "^19.1.2",
